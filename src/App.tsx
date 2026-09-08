@@ -1,8 +1,8 @@
-import { App as AntdApp, ConfigProvider } from 'antd'
-import zhCN from 'antd/locale/zh_CN'
-import { RouterProvider } from 'react-router-dom'
-import { QueryProvider } from '@/providers/query-provider'
-import { router } from '@/router'
+import { App as AntdApp, ConfigProvider } from "antd";
+import zhCN from "antd/locale/zh_CN";
+import { RouterProvider } from "react-router-dom";
+import { QueryProvider } from "@/providers/query-provider";
+import { router } from "@/router";
 
 export default function App() {
   return (
@@ -10,7 +10,7 @@ export default function App() {
       locale={zhCN}
       theme={{
         token: {
-          colorPrimary: '#1677ff',
+          colorPrimary: "#1677ff",
           borderRadius: 6,
         },
       }}
@@ -21,5 +21,5 @@ export default function App() {
         </QueryProvider>
       </AntdApp>
     </ConfigProvider>
-  )
+  );
 }
