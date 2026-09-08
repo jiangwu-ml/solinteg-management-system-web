@@ -1,0 +1,59 @@
+@use "@/styles/variables" as *;
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background:
+    radial-gradient(
+      circle at 12% 18%,
+      rgba($color-primary, 0.16),
+      transparent 42%
+    ),
+    radial-gradient(
+      circle at 88% 12%,
+      rgba($color-accent, 0.14),
+      transparent 36%
+    ),
+    linear-gradient(160deg, #f0f5ff 0%, #f7f9fc 48%, #eef2f7 100%);
+}
+
+.panel {
+  width: 100%;
+  max-width: 420px;
+}
+
+.brand {
+  text-align: center;
+  margin-bottom: 20px;
+
+  &Title {
+    margin: 0 !important;
+    letter-spacing: 0.04em;
+    color: $color-brand;
+  }
+
+  &Desc {
+    margin: 8px 0 0 !important;
+    color: rgba($color-brand, 0.65) !important;
+  }
+}
+
+.card {
+  box-shadow: 0 12px 40px rgba($color-brand, 0.08);
+  border-radius: 12px;
+}
+
+.formTitle {
+  margin: 0 0 4px !important;
+}
+
+.formHint {
+  margin-bottom: 16px !important;
+}
+
+.tip {
+  margin-bottom: 20px;
+}

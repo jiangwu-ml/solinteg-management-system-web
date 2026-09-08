@@ -18,6 +18,8 @@ npm install
 npm run dev
 ```
 
+开发规范（目录 / 页面 / 组件 / 样式 / 状态管理）见 [DEVELOPMENT.md](./DEVELOPMENT.md)。
+
 ## 构建
 
 ```bash

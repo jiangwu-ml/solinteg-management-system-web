@@ -1,7 +1,7 @@
 import { App as AntdApp, ConfigProvider } from "antd";
 import zhCN from "antd/locale/zh_CN";
 import { RouterProvider } from "react-router-dom";
-import { QueryProvider } from "@/providers/query-provider";
+import { QueryProvider } from "@/providers/queryProvider";
 import { router } from "@/router";
 
 export default function App() {
